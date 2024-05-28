@@ -12,7 +12,7 @@ This website is a demonstration of knowledge for using APIs.
 
 Below is an image and link of the weather dashboard.
 
-![image](https://github.com/ZACGIL/Zac-Gilfoyle-Weather-API/assets/30303489/9344842a-a220-4a5a-990d-abbc019e57a7)
+![weather-api](https://github.com/ZACGIL/Challenge-6-Weather-API/assets/30303489/17b274ee-a6b4-4ef9-9bb3-74edbac35863)
 
 ## Deployed Application Link:
 https://zacgil.github.io/Challenge-6-Weather-API/
