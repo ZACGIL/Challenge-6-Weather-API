@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(65, 113, 246, 1) 0%, rgba(57, 62, 202, 1) 50%, rgba(43, 18, 107, 1) 100%);
+}
+
+h1,
+h2,
+h3 {
+    margin: 1rem;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+form {
+    margin: 1rem;
+    padding: 1px;
+}
+
+input[type=search] {
+    border-radius: 4px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+input[type=search]:focus {
+    border: 2px solid white;
+}
+
+aside {
+    flex: 1, 25%;
+    height: auto;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1;
+}
+
+.history button {
+    width: 100%;
+    transition-duration: 0.4s;
+}
+
+.history {
+    margin: 1rem;
+}
+
+.results {
+    margin: 1rem;
+    padding: 1rem;
+    line-height: 2rem;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+.forecast {
+    margin: 1rem;
+    color: white;
+    background-color: blue;
+    border: 2px solid black;
+    width: auto;
+    height: auto;
+    flex: 1;
+}
+
+.day {
+    background-color: white;
+    color: black;
+    border-radius: 1px;
+    padding: 1px; 
+    margin: 2px;
+    flex: 1;
+    width: auto;
+}
